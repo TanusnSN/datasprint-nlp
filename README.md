@@ -1,6 +1,6 @@
 # Data Sprint 2.0: NLP Track (Hindi & Hinglish Open-Set Intent Classification)
 
-Team: YT(Team Name),  Tanushree S N and Yashaswika  K M, The National Institute of Engineering, Mysuru
+Team: Tanu and Yashaswika, The National Institute of Engineering, Mysuru
 
 ## Pipeline overview
 1. **multilingual-e5-base** (278M) fine-tuned for 56-way classification: mean pooling, dropout, linear head, label smoothing 0.1, AdamW (lr 5e-5), fp16, 6 epochs, trained on 100% of train.csv.
