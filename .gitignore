@@ -2,3 +2,5 @@ model/
 output/
 __pycache__/
 *.pt
+venv/
+.vscode
