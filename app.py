@@ -42,4 +42,4 @@ if __name__ == "__main__":
         inputs=gr.Textbox(label="Voice command (Hindi / Hinglish / English)"),
         outputs=[gr.Label(num_top_classes=3), gr.Textbox(label="Info")],
         title="Data Sprint 2.0: Hindi & Hinglish Intent Classifier",
-    ).launch()
+    ).launch(share=True)
