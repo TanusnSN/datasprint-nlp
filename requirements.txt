@@ -1,6 +1,6 @@
 torch
 transformers
-scikit-learn
+scikit-learn==1.6.1
 scipy
 joblib
 pandas
